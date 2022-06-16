@@ -1,0 +1,243 @@
+= Rapport d’évaluation des algorithmes
+
+écrit par Olivier Recher 2A
+
+
+=== Evaluation des algos d'efficacité
+[cols="4,2,2,5",options=header]
+|===
+| Algo | Note  | langage | Analyse 
+| efficacite-24 | 0  | java | lien
+| efficacite-52 | 0  | java | lien
+| efficacite-81 | 0  | java | lien
+|efficacite-134 | 0  |python| lien |
+|===
+=== Evaluation des algos de simplicité
+[cols="4,2,2,5",options=header]
+|===
+| Algo | Note  | langage | Analyse 
+| simplicite-27 | 0  | python | lien
+| simplicite-50 | 0  | python | lien
+|simplicite-100 | 0  | java   | lien
+|simplicite-149 | 0  | java   | lien |
+|===
+
+=== Evaluation des algos de simplicité
+[cols="4,2,2,5",options=header]
+|===
+| Algo | Note  | langage | Analyse 
+| sobriete-136 | 0  | c  | lien
+| sobriete-145 | 0  | c  | lien
+| sobriete-161 | 0  | py | lien
+|===
+
+== Analyse des algorythmes d'efficacité +
+
+=== efficacite-24 
+
+
+Lisibilité du code::
+
+* Des retours à la ligne, code espacé, trop même. +
+* Commentaire permettant la compréhension du code.
+
+Qualité du code::
+
+* Plusieurs espaces à la suite inutiles.
+
+Efficacité::
+
+* La complexité de ce code est de O(2n) ou n représente le nombre de caractère passés en entrer.
+
+Sobriété numérique::
+
+
+Temps d’exécution::
+
+oui
+
+=== efficacite-52 
+
+
+Lisibilité du code::
+
+* Très clair, répartie en bloc lisible. +
+* Chaque ligne est commenté, on peut pas faire plus, parfois inutile mais préférable à l'inverse.
+
+Qualité du code::
+
+* Codacy : Issues -> 2
+* Attention, ne pas modifier le contenu de l'attribut passé en paramétre.
+
+Efficacité::
+
+
+* 
+
+Sobriété numérique::
+
+
+Temps d’exécution::
+
+oui
+
+=== efficacite-81 
+
+
+Lisibilité du code::
+
+* Code simple, mais pas commenté.
+* Pas de javadoc.
+* Nom de variable non explicite "tmp" pour sa nouvelle chaîne de caractère.
+
+
+Qualité du code::
+
+* Codacy : Issues -> 1
+** Il s'agit du nom de la classe "Eraser".
+
+
+Efficacité::
+
+La complexité de ce code est de O(2n) ou n représente le nombre de caractère passés en entrer.
+
+Sobriété numérique::
+
+
+Temps d’exécution::
+
+oui
+
+=== efficacite-134 
+
+
+Lisibilité du code::
+
+* Aucun retour à la ligne. 
+* javadoc en anglais, bien pour l'internationnal. 
+* Manque de commentaire intermédiaire pour aider à la compréhension du processus.
+
+Qualité du code::
+
+* Codacy : Issues -> 1
+** Il s'agit du nom de la classe "Eraser".
+
+Efficacité::
+
+*
+
+Sobriété numérique::
+
+
+Temps d’exécution::
+
+*
+
+
+== Analyse des algorythmes de simplicité +
+
+=== simplicite-27
+
+
+Lisibilité du code::
+
+* Pas de commentaires.
+* Pas de javadoc.
+* Nom de variable non explicite "tmp" pour sa nouvelle chaîne de caractère.
+
+
+Qualité du code::
+
+* Codacy : Issues -> 7
+** Défini une méthode main dans une class Main qui appelle sa méthode pour effacer les espaces = inutile.
+** Redéfinit le paramètre str passer en entrer de la fonction.
+** Définit une fonction sans paramètre d'entrée.
+** Définit une variable "Scanner" qui n'est utilisé nul part.
+** Nécessite un input manuel.
+
+
+Efficacité::
+
+* Codacy : Complexity -> 5
+
+Sobriété numérique::
+
+
+Temps d’exécution::
+
+* 
+
+
+=== simplicite-100
+
+
+Lisibilité du code::
+
+* Pas de commentaire, alors qu'il utilise des méthodes peu communes qu'il serait bon d'expliquer.
+* Pas de javadoc.
+* Ensemble des conditions compris dans un seul "if" ce qui est peu lisible.
+
+Qualité du code::
+
+* Codacy : Issues -> 2
+** Redéfinit le paramètre str passer en entrer de la fonction.
+
+Efficacité::
+
+* Codacy : Complexity -> 11
+
+
+Sobriété numérique::
+
+Temps d’exécution::
+
+oui
+
+=== simplicite-149 
+
+
+Lisibilité du code::
+
+* Le code est lisible, très épuré et commenté. +
+* Une seule ligne de code, très simple, il faut toutefois comprendre qu'il a utilisé des expressions régulières pour les espaces.
+
+Qualité du code::
+
+* Code sur une ligne sans défault. +
+* Codacity a détecter une issue mais il s'agit du nom de la classe "EraserUn".
+
+Efficacité::
+
+* La complexité de ce code est de O(n) ou n représente le nombre de caractère passés en entrer. En effet ce programme va parcourir *une seule fois* le chaîne de caractère en supprimant les espaces unique.
+
+* Codacy : Complexity -> 5
+
+
+Sobriété numérique::
+
+Temps d’exécution::
+
+oui
+
+== Analyse des algorythmes de sobriete +
+
+
+=== sobriete-136 
+
+
+Lisibilité du code::
+
+* Un commentaire mais sur du long code comme ça plus de commentaires serait appréciés.
+* Pas de javadoc.
+* Code bien espacé, réparti en bloc.
+
+Qualité du code::
+
+
+Efficacité::
+
+
+Sobriété numérique::
+
+
+Temps d’exécution::

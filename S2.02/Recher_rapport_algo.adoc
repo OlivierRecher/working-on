@@ -1,1 +1,20 @@
-=Rapport d’évaluation des algorithmes
+= Rapport d’évaluation des algorithmes
+
+écrit par Olivier Recher 2A
+
+.Tableau synthétique de mon évaluation
+[options="header"]
+|=========================================================================================================
+| Evaluation  | Algo    | Lisibilité  | Qualité  | Temps d’exécution  | Complexité  | Sobriété
+| 5           | efficacite-24.java   | {plus}{plus}{plus}{plus}        | {plus}{plus}{plus}{plus}{plus}    | N/A                | N/A         | N/A     
+| 5           | efficacite-52.java   | {plus}{plus}{plus}{plus}{plus}       | {plus}{plus}{plus}{plus}     | N/A                | N/A         | N/A     
+| 3           | efficacite-81.java  | {plus}{plus}{plus}         | {plus}{plus}{plus}      | N/A                | N/A         | N/A     
+| 2           | efficacite-134.py  | {plus}           | {plus}{plus}{plus}{plus}     | N/A                | N/A         | N/A     
+| 5           | simplicite-27.py  | N/A         | N/A      | {plus}{plus}{plus}{plus}               | {plus}{plus}{plus}{plus}        | N/A     
+| 4           | simplicite-50.py    | N/A         | N/A      | {plus}{plus}{plus}{plus}{plus}              | {plus}{plus}{plus}         | N/A     
+| 3           | simplicite-100.java | N/A         | N/A      | {plus}{plus}{plus}                | {plus}{plus}{plus}         | N/A     
+| 2           | simplicite-149.java   | N/A         | N/A      | {plus}{plus}                 | {plus}{plus}{plus}         | N/A     
+| 5           | sobriete-136.c     | N/A         | N/A      | {plus}{plus}                 | {plus}{plus}{plus}         | {plus}{plus}{plus}     
+| 5           | sobriete-145.c       | N/A         | N/A      | {plus}{plus}                | {plus}{plus}{plus}         | {plus}{plus}{plus}     
+| 0           | sobriete-161.py    | N/A         | N/A      | -                  | -           | N/A     
+|=========================================================================================================
