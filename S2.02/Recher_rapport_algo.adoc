@@ -2,19 +2,31 @@
 
 écrit par Olivier Recher 2A
 
+Les notations vont de (-) à {plus}{plus}{plus}{plus}{plus}
+
 .Tableau synthétique de mon évaluation
-[options="header"]
+[cols="1,4,3,3,3,3,3",options=header]
 |=========================================================================================================
 | Evaluation  | Algo    | Lisibilité  | Qualité  | Temps d’exécution  | Complexité  | Sobriété
-| 5           | efficacite-24.java   | {plus}{plus}{plus}{plus}        | {plus}{plus}{plus}{plus}{plus}    | N/A                | N/A         | N/A     
-| 5           | efficacite-52.java   | {plus}{plus}{plus}{plus}{plus}       | {plus}{plus}{plus}{plus}     | N/A                | N/A         | N/A     
-| 3           | efficacite-81.java  | {plus}{plus}{plus}         | {plus}{plus}{plus}      | N/A                | N/A         | N/A     
-| 2           | efficacite-134.py  | {plus}           | {plus}{plus}{plus}{plus}     | N/A                | N/A         | N/A     
-| 5           | simplicite-27.py  | N/A         | N/A      | {plus}{plus}{plus}{plus}               | {plus}{plus}{plus}{plus}        | N/A     
-| 4           | simplicite-50.py    | N/A         | N/A      | {plus}{plus}{plus}{plus}{plus}              | {plus}{plus}{plus}         | N/A     
-| 3           | simplicite-100.java | N/A         | N/A      | {plus}{plus}{plus}                | {plus}{plus}{plus}         | N/A     
-| 2           | simplicite-149.java   | N/A         | N/A      | {plus}{plus}                 | {plus}{plus}{plus}         | N/A     
-| 5           | sobriete-136.c     | N/A         | N/A      | {plus}{plus}                 | {plus}{plus}{plus}         | {plus}{plus}{plus}     
-| 5           | sobriete-145.c       | N/A         | N/A      | {plus}{plus}                | {plus}{plus}{plus}         | {plus}{plus}{plus}     
-| 0           | sobriete-161.py    | N/A         | N/A      | -                  | -           | N/A     
+| 5           | efficacite-24.java   | {plus}{plus}{plus}{plus} | {plus}{plus}{plus}{plus}   | N/A                |  {plus}{plus}{plus}         | N/A     
+
+| 5           | efficacite-52.java   | {plus}{plus}{plus}{plus}{plus}       | {plus}{plus}{plus}     | N/A                | {plus}{plus}{plus}         | N/A     
+
+| 3           | efficacite-81.java  | {plus}{plus}        | {plus}{plus}{plus}{plus}{plus}      | N/A                | {plus}{plus}{plus}         | N/A     
+
+| 2           | efficacite-134.py  | {plus}{plus}{plus}           | {plus}{plus}{plus}{plus}    | N/A                | N/A         | N/A     
+
+| 5           | simplicite-27.py  | {plus}{plus}         | -      | N/A               | {plus}{plus}{plus}{plus}        | N/A     
+
+| 4           | simplicite-50.py    | {plus}{plus}{plus}{plus}         | {plus}{plus}      | N/A              | {plus}{plus}{plus}         | N/A     
+
+| 3           | simplicite-100.java | {plus}{plus}         | {plus}{plus}{plus}      | N/A                | {plus}{plus}{plus}         | N/A     
+
+| 2           | simplicite-149.java   | {plus}{plus}{plus}{plus}         | {plus}{plus}{plus}{plus}{plus}     | N/A                 | {plus}{plus}{plus}{plus}{plus}         | N/A     
+
+| 5           | sobriete-136.c     | {plus}{plus}{plus}         | N/A      | N/A                 | {plus}{plus}{plus}         | N/A    
+
+| 5           | sobriete-145.c       | {plus}{plus}{plus}{plus}{plus}         | N/A      | N/A                | {plus}{plus}{plus}         | N/A     
+
+| 0           | sobriete-161.py    | {plus}{plus}         |{plus}{plus}{plus}{plus}{plus}      | N/A                  | -           | 0.0002104    
 |=========================================================================================================
